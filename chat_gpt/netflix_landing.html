@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Netflix Landing Page</title>
+    <link rel="stylesheet" href="netflix_landing.css">
+</head>
+<body>
+    <div class="header">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/0/08/Netflix_2015_logo.svg" alt="Netflix Logo" class="logo">
+        <button class="sign-in">Sign In</button>
+    </div>
+    <div class="landing-content">
+        <h1>Unlimited movies, TV shows, and more</h1>
+        <h2>Watch anywhere. Cancel anytime.</h2>
+        <p>Ready to watch? Enter your email to create or restart your membership.</p>
+        <div class="email-form">
+            <input type="email" placeholder="Email address" id="email">
+            <button onclick="subscribe()">Get Started &gt;</button>
+        </div>
+        <p id="message" class="message"></p>
+    </div>
+    <script src="netflix_landing.js"></script>
+</body>
+</html>
